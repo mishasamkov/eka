@@ -15,15 +15,15 @@ namespace Common
         public string Title { get; set; }
         public string Src { get; set; }
 
-        public News(string img,DateTime date, string badge,string title,string src) 
-        
-        
-        { 
+        public News(string img, DateTime date, string badge, string title, string src)
+
+
+        {
             this.Img = img;
             this.Date = date;
             this.Badge = badge;
             this.Title = title;
             this.Src = src;
         }
-    }   
+    }
 }
