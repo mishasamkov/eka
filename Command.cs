@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Common
 {
-    internal class Command
+    public class Command
     {
+        public string Message { get; set; }
     }
 }
